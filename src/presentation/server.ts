@@ -24,7 +24,8 @@ export class Server {
     async start(){
 
         // Middlewares
-        // Este middleware permite parsear el body de tipo json
+
+        // Este middleware permite parsear el body de tipo raw json
         this.app.use( express.json() ); 
         // Este middleware permite parsear el body de tipo x-www-form-urlencoded
         this.app.use( express.urlencoded({ extended: true }) ); 
