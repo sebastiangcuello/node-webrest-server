@@ -32,3 +32,4 @@ const server = http_1.default.createServer((req, res) => {
 server.listen(8080, () => {
     console.log('Server is listening on port 8080');
 });
+//# sourceMappingURL=app%20http.js.map

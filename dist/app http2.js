@@ -35,3 +35,4 @@ const server = http2_1.default.createSecureServer({
 server.listen(8080, () => {
     console.log('Server is listening on port 8080');
 });
+//# sourceMappingURL=app%20http2.js.map
