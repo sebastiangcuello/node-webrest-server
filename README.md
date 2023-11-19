@@ -3,6 +3,7 @@
 # Dev
 
 1. Clonar el .env.template y renombrarlo a .env
-2. Instalar dependencias: `npm install`
-3. Correr el proyecto: `npm run dev`
-4. Abrir el navegador en `http://localhost:3000`
+2. Ejecutar el comand de ```docker compose up -d```	
+3. Instalar dependencias: `npm install`
+4. Correr el proyecto: `npm run dev`
+5. Abrir el navegador en `http://localhost:3000`
