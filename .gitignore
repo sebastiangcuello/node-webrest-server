@@ -4,5 +4,3 @@ keys/
 .env
 
 /postgres
-
-dist/
