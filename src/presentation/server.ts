@@ -1,5 +1,6 @@
 import express, { Router } from 'express';
 import path from 'path';
+import compression from 'compression';
 
 interface Options {
     port: number;
@@ -29,6 +30,9 @@ export class Server {
         this.app.use( express.json() ); 
         // Este middleware permite parsear el body de tipo x-www-form-urlencoded
         this.app.use( express.urlencoded({ extended: true }) ); 
+
+        // Este middleware permite comprimir las respuestas
+        this.app.use(compression())
 
         // Public Folders (Un tipo de middleware)
         this.app.use(express.static( this.publicPath ));
